@@ -1,0 +1,104 @@
+.background-video {
+    background: cover;
+    position: absolute;
+    top:0;
+    left:0; 
+  }
+  
+  
+  .container {
+    margin-top: 50px;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    max-width: 90%;
+    width: 90rem;
+    background-color: #eeeeee;
+    opacity: 0.7;
+    position: relative;
+    left: 50px;
+    right: 30px;
+  }
+  .card-body {
+    max-width: 80%;
+    width: 35rem;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .form-control{
+    width: 400px; 
+    padding: 8px;
+  }
+  .btn-secondary {
+    opacity: 1.3;
+    padding: 5px;
+  }
+  
+  h1, h2, h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h1 {
+    padding-top: 20px;
+    font-weight: bolder;
+    color:blueviolet; 
+  }
+  
+  h2{ 
+    color: rgb(6, 99, 105);
+    font-weight: bold;
+  }
+  
+  h3{
+    color: rgb(53, 51, 51);
+    font-weight: lighter; 
+  }
+  
+  .current-weather {
+    font-size: 40px;
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  .current-weather {
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    left: -60px;
+    top: -120px;
+  }
+  .weather-details {
+    font-size: 15px;
+    text-align: right;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    color: rgb(36, 35, 35);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .weather-symbol {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #4a4f58;
+  }
+  .col {
+    word-spacing: 20px;
+    text-align: center;
+    display: inline-block;
+  }
+  .day {
+    color:rgb(45, 45, 128);
+    font-size: 14px;
+    line-height: 3;
+  }
+  
+  
