@@ -1,11 +1,3 @@
-.background-video {
-    background: cover;
-    position: absolute;
-    top:0;
-    left:0; 
-  }
-  
-  
   .container {
     margin-top: 50px;
     max-width: 80%;
@@ -35,6 +27,7 @@
   .btn-secondary {
     opacity: 1.3;
     padding: 5px;
+    color:aquamarine; 
   }
   
   h1, h2, h3{
@@ -44,7 +37,7 @@
   h1 {
     padding-top: 20px;
     font-weight: bolder;
-    color:blueviolet; 
+    color:rgb(18, 88, 109); 
   }
   
   h2{ 
@@ -75,30 +68,22 @@
     font-size: 15px;
     text-align: right;
   }
-  
-  p {
-    font-family: "Roboto", sans-serif;
-    color: rgb(36, 35, 35);
-  }
+
   
   ul {
     list-style: none;
   }
-  .weather-symbol {
-    font-size: 38px;
-    text-align: center;
-    margin-bottom: 8px;
-    color: #4a4f58;
-  }
-  .col {
-    word-spacing: 20px;
-    text-align: center;
-    display: inline-block;
-  }
-  .day {
-    color:rgb(45, 45, 128);
-    font-size: 14px;
-    line-height: 3;
-  }
+
+ a{
+   color: navy;
+ }
+
+ p{
+   padding-top: 50px;
+   text-align: center;
+   margin: auto;
+   font-family: "Roboto", sans-serif;
+    color: rgb(36, 35, 35);
+ }
   
   
